@@ -38,9 +38,10 @@ const ChildContainer = styled.div`
 `;
 
 const ArrowContainer = styled.div`
-    padding: 0em 0em 0em 1em;
+    padding: 0em 1em 0em 0em;
     font-size: 1.25em;
-    float: right;
+    margin-left: auto;
+    color: #b8b8ba;
 `;
 
 const Background = styled.div`
