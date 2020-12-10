@@ -1,5 +1,6 @@
-# Halter Full Stack Developer Test
+Basic Rest API on Express.js with Sqlite3 persistence layer, testing done in Mocha and Chai.
 
+Instructions: 
 
 Install [nodemon](https://github.com/remy/nodemon) globally
 
@@ -7,25 +8,23 @@ Install [nodemon](https://github.com/remy/nodemon) globally
 npm i nodemon -g
 ```
 
-Install server and client dependencies
+Install server dependencies
 
 ```
 yarn
-cd client
-yarn
 ```
 
-To start the server and client at the same time (from the root of the project)
+To start the server 
 
 ```
 yarn dev
 ```
 
-Notes:
-I have realised in the last hour that the rc-swipeout library I have used for the swipeable rows was written in react-native using gesture hooks - this means the swipe functionality currently only works in a responsive view (f12 -> Ctrl + Shift + M). I imagine this would be a simple media query / global css fix but I haven't had the time to look into it
+To run tests
 
-Rather than click on a herd to open up and view the cows please swipe right and click open instead, I thought this would be cooler than a standard click.
-
+```
+yarn test
+```
 
 
 
